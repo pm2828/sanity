@@ -65,4 +65,3 @@ Download matching chromedriver from:
 ```
 https://googlechromelabs.github.io/chrome-for-testing/
 ```
-# sanity
