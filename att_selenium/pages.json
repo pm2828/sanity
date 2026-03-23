@@ -1,0 +1,94 @@
+{
+  "app_name": "ATT Atlas UI",
+  "base_url": "https://atlasui-eastus2-prod.az.3pc.att.com",
+  "pages": [
+    {
+      "name": "Home",
+      "url": "/",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "nav, .navbar, .header, #header", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Job",
+      "url": "/job",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Customer",
+      "url": "/customer",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Customer History",
+      "url": "/customer-history",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Facilities",
+      "url": "/facilities",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Tests Dynamic",
+      "url": "/tests-dynamic",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "CPE Test",
+      "url": "/cpe-test",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Trouble Shoot",
+      "url": "/trouble-shoot",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Sync No Service",
+      "url": "/sync-no-service",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "Troubleshoot VOIP",
+      "url": "/troubleshoot-voip",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    },
+    {
+      "name": "System Health",
+      "url": "/system-health",
+      "ui_checks": [
+        {"selector": "body", "expect_visible": true},
+        {"selector": "h1, h2, .page-title, .title", "expect_visible": true}
+      ]
+    }
+  ]
+}
